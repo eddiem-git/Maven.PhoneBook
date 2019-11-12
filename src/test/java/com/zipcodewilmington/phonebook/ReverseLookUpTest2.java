@@ -3,7 +3,7 @@ package com.zipcodewilmington.phonebook;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class ReverseLookupTest {
+public class ReverseLookUpTest2 {
     @Test
     public void test1() {
         // given
@@ -14,7 +14,7 @@ public class ReverseLookupTest {
         Assert.assertTrue(phoneBook.hasEntry(expectedName));
 
         // when
-        String actualName = phoneBook.reverseLookup(phoneNumber);
+        String actualName = phoneBook.reverseLookup2(phoneNumber);
 
         // then
         Assert.assertEquals(expectedName, actualName);
@@ -30,7 +30,7 @@ public class ReverseLookupTest {
         Assert.assertTrue(phoneBook.hasEntry(expectedName));
 
         // when
-        String actualName = phoneBook.reverseLookup(phoneNumber);
+        String actualName = phoneBook.reverseLookup2(phoneNumber);
 
         // then
         Assert.assertEquals(expectedName, actualName);
@@ -47,7 +47,7 @@ public class ReverseLookupTest {
         Assert.assertTrue(phoneBook.hasEntry(expectedName));
 
         // when
-        String actualName = phoneBook.reverseLookup(phoneNumber);
+        String actualName = phoneBook.reverseLookup2(phoneNumber);
 
         // then
         Assert.assertEquals(expectedName, actualName);
